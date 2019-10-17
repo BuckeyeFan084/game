@@ -1,3 +1,27 @@
-h1 {
-    color:red;
+.header.h1 {
+    background-color: gray;
+    background-size: 100%;
+    font-size: 3em;
+    color: white;
+}
+
+.square {
+    width: 29.2331%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.98%;
+    border-radius: 29.2331%;
+    transition: background-color 1s;
+    transition: border-radius 1s;
+}
+
+.square.winner {
+    background-color: gold;
+    border-radius: 35%;
+}
+
+.square.loser {
+    background-color: gray;
+    border-radius: 35%;
 }
